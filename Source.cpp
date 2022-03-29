@@ -366,11 +366,7 @@ void endgame() {
 	gotoXY(35, 19); printf("(Diem cua ban da duoc luu vao file, nap vip de co the xem)");
 	ag = _getch();
 }
-void gifile() {
-	d = fopen("in5", "w");
-	fprintf(d, "%d", sl );
-	fclose(d);
-}
+
 void edit() {
 	vetuong();
 	gotoXY(10, 6); printf("chon mau ran: (nhap ki tu so de chon)  ");
