@@ -425,5 +425,5 @@ void edit() {
 	gotoXY(10, 12); printf("chon thanh cong mau cho tuong  ");
 	system("cls");
 	}
-	
+	/ ho vinh tin cntt k62
 
