@@ -367,8 +367,8 @@ void endgame() {
 	ag = _getch();
 }
 void gifile() {
-	d = fopen("in5", "w");
-	fprintf(d, "%d", sl );
+	d = fopen("in5.txt", "a");
+	fprintf(d, "%d", sl-4 );
 	fclose(d);
 }
 void edit() {
